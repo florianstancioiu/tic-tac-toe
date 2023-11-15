@@ -4,7 +4,7 @@ import RefreshButton from './UI/RefreshButton';
 
 const GameTurn = () => {
   return (
-    <div className='flex justify-between mb-[6.4rem] items-center'>
+    <div className='flex justify-between gap-[2rem] mb-[6.4rem]'>
       <div>
         <img
           src={LogoImage}
