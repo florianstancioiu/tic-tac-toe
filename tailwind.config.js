@@ -19,6 +19,7 @@ export default {
         'box-light-yellow': 'inset 0px -8px 0px 0px #CC8B13',
         'box-light-blue': 'inset 0px -8px 0px 0px #118C87',
         'box-dark-navy': 'inset 0px -8px 0px 0px #10212A',
+        'box-silver': 'inset 0px -4px 0px 0px #6B8997',
       },
     },
   },

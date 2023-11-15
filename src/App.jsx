@@ -1,7 +1,8 @@
 import NewGame from './components/NewGame';
+import Game from './components/Game';
 
 const App = () => {
-  return <NewGame />;
+  return <Game />;
 };
 
 export default App;
