@@ -8,11 +8,14 @@ const Button = ({ title, color = 'yellow' }) => {
     case 'blue':
       colorClasses = 'bg-light-blue shadow-box-light-blue';
       break;
+    case 'silver':
+      colorClasses = 'bg-silver shadow-box-silver';
+      break;
   }
 
   return (
     <button
-      className={`${colorClasses} block w-[100%] mb-[1.6rem] uppercase rounded-[10px] font-bold h-[56px] leading-[56px]`}
+      className={`${colorClasses} block mb-[1.6rem] uppercase rounded-[10px] font-bold h-[56px] leading-[56px] px-[1.7rem]`}
     >
       {title}
     </button>
