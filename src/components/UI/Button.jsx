@@ -17,7 +17,7 @@ const Button = ({ title, color = 'yellow', fullWidth = false }) => {
     <button
       className={`${colorClasses} ${
         fullWidth ? 'w-full' : ''
-      } block mb-[1.6rem] uppercase rounded-[10px] font-bold h-[56px] leading-[56px] px-[1.7rem]`}
+      } block mb-[1.6rem] uppercase rounded-[10px] font-bold h-[56px] leading-[56px] md:h-[67px] md:leading-[67px] px-[1.7rem]`}
     >
       {title}
     </button>

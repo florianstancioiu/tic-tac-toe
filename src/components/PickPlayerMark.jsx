@@ -9,10 +9,18 @@ const PickPlayerMark = () => {
       </h2>
       <div className='mb-[1.6rem] py-[0.9rem] rounded-[10px] bg-dark-navy flex h-[7.2rem]'>
         <div className='w-[50%] grid place-items-center cursor-pointer'>
-          <img src={XMarkLightIcon} alt='' className='block mx-auto' />
+          <img
+            src={XMarkLightIcon}
+            alt=''
+            className='block mx-auto w-[3.2rem] h-[3.2rem]'
+          />
         </div>
         <div className='w-[50%] rounded-[1rem] bg-silver grid place-items-center cursor-pointer'>
-          <img src={OMarkDarkIcon} alt='' className='block mx-auto' />
+          <img
+            src={OMarkDarkIcon}
+            alt=''
+            className='block mx-auto w-[3.2rem] h-[3.2rem]'
+          />
         </div>
       </div>
       <p className='text-silver opacity-[0.5] pb-[3rem]'>
