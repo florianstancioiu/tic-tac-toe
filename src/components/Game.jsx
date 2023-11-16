@@ -5,7 +5,7 @@ import Modal from './UI/Modal';
 
 const Game = () => {
   return (
-    <div className='pt-[2.4rem] pb-[12.7rem]'>
+    <div className='pt-[2.4rem] pb-[12.7rem] md:py-[20rem] md:max-w-[46rem] md:mx-auto'>
       <GameTurn />
       <GameBoard />
       <GameStats />

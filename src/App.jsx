@@ -2,7 +2,12 @@ import NewGame from './components/NewGame';
 import Game from './components/Game';
 
 const App = () => {
-  return <Game />;
+  return (
+    <>
+      {/* <NewGame /> */}
+      <Game />
+    </>
+  );
 };
 
 export default App;
