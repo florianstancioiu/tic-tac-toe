@@ -8,7 +8,7 @@ const cells = [
 
 const GameBoard = () => {
   return (
-    <div className='grid gap-[2rem]'>
+    <div className='grid gap-[2rem] max-w-[32.8rem] mx-auto md:mx-[initial]'>
       {cells.map((row, index) => (
         <div key={index} className='flex gap-[2rem] justify-between'>
           {row.map((cell, index) => {

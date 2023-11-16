@@ -9,13 +9,13 @@ const Game = () => {
       <GameTurn />
       <GameBoard />
       <GameStats />
-      {/*       <Modal
+      <Modal
         title='Oh no, you lost...'
         bigTitle='Takes the round'
         bigTitleIcon='o'
         buttonSilverText='Quit'
         buttonYellowText='Next Round'
-      /> */}
+      />
     </div>
   );
 };
